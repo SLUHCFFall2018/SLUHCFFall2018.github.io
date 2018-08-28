@@ -1,0 +1,320 @@
+<html>
+  <head>
+    <title> tables </title>
+  </head>
+
+  <body>
+
+    <h3>Below is a 3x4 table. Each row is designated with the tr (table row) tag and each column is specified with the td (table data) tag.</h3>
+
+    <table border="2">
+      <tr>
+        <td>stuff</td>
+        <td>more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+      <tr>
+        <td>stuff</td>
+        <td>more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+      <tr>
+        <td>stuff</td>
+        <td>more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+    </table>
+
+    <h3>Below is a 3x3 table that uses the th (table headings) tag. </h3>
+
+    <table border="3">
+      <tr>
+        <th></th>
+        <td>Monday</td>
+        <td>Tuesday</td>
+      </tr>
+      <tr>
+        <th>freshmen</th>
+        <td>234</td>
+        <td>275</td>
+      </tr>
+      <tr>
+        <th>sophomores</th>
+        <td>111</td>
+        <td>214</td>
+      </tr>
+    </table>
+
+    <h3>The tables below are irregular. To make them we need to use either the colspan or rowspan attributes.</h3>
+
+    <table border="3">
+      <tr>
+        <th></th>
+        <th>9 am</th>
+        <th>10 am</th>
+        <th>11 am</th>
+        <th>12 am</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td>Art</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <table border="3">
+      <tr>
+        <th></th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+      </tr>
+      <tr>
+        <th>6-7 pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+      </tr>
+      <tr>
+        <th>7-8 pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+      </tr>
+    </table>
+
+    <h3>Sometimes tables need to be represented in sections that are distinguishable. We can use the thead, tbody, and tfoot tags to help</h3>
+    <!-- These tags also enable screen readers to convery what is on the page to people who cannot see. Also, these tags allow the middle of the table to be scrollable. -->
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Income</th>
+          <th>Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1-1</th>
+          <td>45</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <th>1-2</th>
+          <td>45</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <th>1-3</th>
+          <td>45</td>
+          <td>63</td>
+        </tr>
+        <tr>
+          <th>1-4</th>
+          <td>45</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <th>1-5</th>
+          <td>45</td>
+          <td>73</td>
+        </tr>
+        <tr>
+          <th>1-6</th>
+          <td>59</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <th>1-7</th>
+          <td>47</td>
+          <td>73</td>
+        </tr>
+        <tr>
+          <th>1-8</th>
+          <td>41</td>
+          <td>83</td>
+        </tr>
+        <tr>
+          <th>1-9</th>
+          <td>55</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <th>1-10</th>
+          <td>75</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <th>1-11</th>
+          <td>25</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <th>1-12</th>
+          <td>15</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <th>1-13</th>
+          <td>45</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <th>1-14</th>
+          <td>75</td>
+          <td>29</td>
+        </tr>
+        <tr>
+          <th>1-15</th>
+          <td>45</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <th>1-16</th>
+          <td>85</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th>1-17</th>
+          <td>95</td>
+          <td>73</td>
+        </tr>
+        <tr>
+          <th>1-18</th>
+          <td>35</td>
+          <td>33</td>
+        </tr>
+        <tr>
+          <th>1-19</th>
+          <td>55</td>
+          <td>63</td>
+        </tr>
+        <tr>
+          <th>1-20</th>
+          <td>45</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <th>1-21</th>
+          <td>45</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <th>1-22</th>
+          <td>35</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <th>1-23</th>
+          <td>47</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <th>1-24</th>
+          <td>42</td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <th>1-25</th>
+          <td>71</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <th>1-26</th>
+          <td>99</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <th>1-27</th>
+          <td>43</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <th>1-28</th>
+          <td>56</td>
+          <td>29</td>
+        </tr>
+        <tr>
+          <th>1-29</th>
+          <td>34</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <th>1-30</th>
+          <td>65</td>
+          <td>73</td>
+        </tr>
+        <tr>
+          <th>1-31</th>
+          <td>75</td>
+          <td>83</td>
+        </tr>
+        <tr>
+          <th>2-1</th>
+          <td>49</td>
+          <td>33</td>
+        </tr>
+        <tr>
+          <th>2-2</th>
+          <td>34</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th>2-3</th>
+          <td>25</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <th>2-4</th>
+          <td>48</td>
+          <td>48</td>
+        </tr>
+        <tr>
+          <th>2-5</th>
+          <td>41</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td>some total value</td>
+          <td>another total </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h3>The table below includes some code that will soon be decrecated, (no longer used). </h3>
+    <h3>The old code uses the width, cellpadding, cellspacing, border, and bordercolor attributes</h3>
+
+    <table width="600" cellpadding="10" cellspacing="5" border="4" bgcolor="#abc328">
+      <tr bgcolor="#1122ac">
+        <td>stuff</td>
+        <td>more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+      <tr>
+        <td>stuff</td>
+        <td>more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+      <tr>
+        <td>stuff</td>
+        <td bgcolor="#387865">more stuff</td>
+        <td>more stuff again</td>
+        <td>even more stuff</td>
+      </tr>
+    </table>
