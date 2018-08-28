@@ -1,0 +1,297 @@
+<html>
+  <head>
+    <title>forms</title>
+  </head>
+
+
+  <body bgcolor="#8877aa">
+
+    <h1>Forms</h1>
+
+    <h3>A form control is a way to collect information from visitors to your website.</h3>
+
+    <h3>Below is a list of the form possible form controls</h3>
+
+    <ul>
+      <li>text field</li>
+      <li>text area</li>
+      <li>password field</li>
+      <li>radio buttons</li>
+      <li>checkboxes</li>
+      <li>drop down boxes</li>
+      <li>submit buttons</li>
+      <li>file upload fields</li>
+    </ul>
+
+    <h3>With forms, a user fills in information or makes a choice from some group of information and then presses a submit button.</h3>
+    <h3>The name of the form control along with the users input is sent to a server. The server processes the information and then takes some action.</h3>
+
+    <h3>In a form, a form tag is used along with an input tag. Each of these tags has important attributes.</h3>
+
+    <hr />
+
+    <h3>Below is a text field form control.</h3>
+
+    <form action="" method="get">
+      <p>Username:
+        <input type="text" name="username" size="20" maxlength="30" />
+      </p>
+    </form>
+
+
+
+
+
+    <hr />
+
+    <h3>Below is a password field form control.</h3>
+
+    <form action="" method="post">
+      <p>Password:
+        <input type="password" name="password" size="20" maxlength="30" />
+      </p>
+    </form>
+
+
+
+
+
+    <hr />
+
+    <h3>Below is a text area form control.</h3>
+
+    <form action="" method="get">
+      <p>What do you think of the Cardinals?</p>
+        <textarea name="comments" rows="4" cols="20">Enter your comments ... </textarea>
+    </form>
+
+
+
+
+
+    <hr />
+
+    <h3>Below is a radio button form control.</h3>
+
+    <form action="" method="get">
+      <p>What time of year do you like the most?
+        <br />
+        <input type="radio" name="seasonChoice" value="spring" checked="checked" /> spring
+        <input type="radio" name="seasonChoice" value="summer" /> summer
+        <input type="radio" name="seasonChoice" value="fall" /> fall
+        <input type="radio" name="seasonChoice" value="winter" /> winter
+      </p>
+    </form>
+
+
+
+
+    <hr />
+
+    <h3>Below is a drop down list box form control.</h3>
+
+    <form action="" method="get">
+      <p>What is your preferred mode of slothful entertainment?</p>
+      <select name="entertainmentPreference">
+        <option value="TV">The TV</option>
+        <option value="Radio">The Radio</option>
+        <option value="Computer">The Computer</option>
+        <option value="Staring">Watching the grass grow</option>
+      </select>
+    </form>
+
+
+
+
+    <hr />
+
+    <h3>Below is a multiple select box form control.</h3>
+
+    <form action="" method="get">
+      <p>What are the musical instruments that you like?</p>
+      <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar" selected="selected">guitar</option>
+        <option value="drums">drums</option>
+        <option value="banjo">banjo</option>
+        <option value="flute">flute</option>
+        <option value="trumpet">trumpet</option>
+        <option value="violin">violin</option>
+        <option value="harmonica">harmonica</option>
+        <option value="piano">piano</option>
+      </select>
+    </form>
+
+
+    <hr />
+
+    <h3>Below is a file input form control.</h3>
+
+    <form action="" method="post">
+      <p>Upload your essay</p>
+      <input type="file" name="studentEssay" />
+      <br />
+      <input type="submit" value="upload" />
+    </form>
+
+
+
+
+    <hr />
+
+    <h3>Below is a submit button form control.</h3>
+
+    <form action="" method="get">
+      <p>Subscribe to our email list.</p>
+      <input type="text" name="email" />
+      <input type="submit" name="subscribe" value = "click to subscribe" />
+    </form>
+
+
+
+    <hr />
+
+    <h3>Below is a image submit button form control.</h3>
+
+    <form action="" method="get">
+      <p>Subscribe to our email list.</p>
+      <input type="text" name="email" />
+      <input type="image" src="subscribe.jpg" width="100" height="20" />
+    </form>
+
+
+
+    <hr />
+
+    <h3>Below is a button form control. It was introduced to give web page authors more control over the way buttons look by combining text and images.</h3>
+
+    <h3>Also, in the example below there are hidden controls which you can see in the source code. Hidden controls allow web page authors to add values to forms that users cannot see.</h3>
+
+    <h3>These added values may include information about which page the user was on when they submitted the form.</h3>
+
+    <form action="" method="get">
+      <button>
+        <img src="bball.jpeg" alt="add" width="15" height="15" /> add
+      </button>
+      <input type="hidden" name="bookmark" value="sports" />
+    </form>
+
+
+
+    <hr />
+
+    <h3>The label tag is used with form controls for vision-impaired users. In the form controls below, we use the labl tag.</h3>
+
+    <h3>The label tag can be used in two different ways.</h3>
+    <h3> 1. Wrap the label around the form control and the text that goes with it.</h3>
+    <h3> 2. Separate the label from the form control and use the "for" attribute to indicate which form a label applies to.</h3>
+
+    <form>
+      <label>Age:<input type="text" name="age" /></label>
+      <br />
+      Gender:
+      <input id="female" type="radio" name="gender" value="f">
+      <label for="female">Female</label>
+      <input id="male" type="radio" name="gender" value="m">
+      <label for="male">Male</label>
+    </form>
+
+
+
+    <hr />
+
+    <h3>You can group related form controls together using the fieldset tag. The legend tag should go immediately after the fieldset tag. It displays information about the form controls.</h3>
+
+    <fieldset>
+      <legend>Contact Details</legend>
+      <label>Email
+        <br />
+        <input type="text" name="email" />
+      </label>
+      <label>Mobile
+        <br />
+        <input type="text" name="mobile" />
+      </label>
+      <label>Telephone
+        <br />
+        <input type="text" name="telephone" />
+      </label>
+    </fieldset>
+
+
+
+
+    <hr />
+
+    <h3>HTML5 introduces several new options for form controls. Currently, not all browersers support these changes.</h3>
+
+    <h3>The example below pertains to form validation. Usually form validation is handled with Javascript. However, HTML5 provides some form validation.</h3>
+
+    <h3>This reduces the amount of wor the server has to do and it enables users to see if there were problems with how they entered data into the form.</h3>
+
+    <form action="" method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" required="required" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="text" name="password" required="required" />
+      <input type="submit" value="submit" />
+    </form>
+
+
+
+
+    <hr />
+
+    <h3>Below is an example of a special date input field introduced in HTML5.</h3>
+
+    <form action="" method="post">
+      <label for="depart">Departure date:</label>
+      <input type="date" name="depart" />
+      <input type="submit" value="submit" />
+    </form>
+
+
+
+
+    <hr />
+
+    <h3>Below is an example of a special email input field introduced in HTML5.</h3>
+
+    <form action="" method="get">
+      <p>Please enter your email address.</p>
+      <input type="email" name="email" />
+      <input type="submit" value="submit" />
+    </form>
+
+
+
+    <hr />
+
+    <h3>Below is an example of a special URL input field introduced in HTML5.</h3>
+
+    <form action="" method="get">
+      <p>Please enter a web address.</p>
+      <input type="url" name="website" />
+      <input type="submit" value="submit" />
+    </form>
+
+
+
+    <hr />
+
+    <h3>Below is an example of a special search input field introduced in HTML5.</h3>
+
+    <form action="" method="get">
+      <p>search</p>
+      <input type="search" name="search" placeholder="Enter your search keyword here." />
+      <input type="submit" value="Search For Me" />
+    </form>
+
+
+
+
+
+
+  </body>
+
+</html>
