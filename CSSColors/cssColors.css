@@ -1,0 +1,25 @@
+
+body {
+  background-color: #4477cc;
+}
+
+h2 {
+  background-color: rgb(255, 100, 200);
+  color: #8812a1;
+}
+
+h3 {
+  background-color: #231234;
+  color: white;
+
+}
+
+p {
+
+  background-color: rgba(100, 200, 100, .7);
+}
+
+.strangeColor {
+  background-color: hsl(40, 80%, 70%);
+
+}
