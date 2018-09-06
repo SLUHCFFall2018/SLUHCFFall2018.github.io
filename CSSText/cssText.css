@@ -1,0 +1,59 @@
+
+
+.format1 {
+  background-color: #accbcb;
+  font-family: Times, Arial, serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 2em;
+  letter-spacing: .5em;
+  word-spacing: .3em;
+  text-align: center;
+  text-shadow: 2px 1px 1px #000142;
+
+}
+
+.format2 {
+  background-color: #888889;
+  font-family: "Lucida Sans", Times, Courier, sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: right;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: overline;
+  line-height: 3em;
+  letter-spacing: .1em;
+  word-spacing: .1em;
+  text-align: right;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a.special:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+p.first:hover {
+  background-color: red;
+}
+
+p.second:hover {
+  background-color: blue;
+}
