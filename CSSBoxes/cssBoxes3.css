@@ -1,0 +1,29 @@
+
+
+p {
+  width: 600px;
+  height: 300px;
+  background-color: #aa99bb;
+}
+
+
+p.one {
+  border: 10px;
+  border-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  background-color: green;
+  border: px;
+  padding: 2px;
+}
+
+li.strange{
+  visibility: hidden;
+}
