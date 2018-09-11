@@ -1,0 +1,41 @@
+
+ul.one {
+  list-style-type: none;
+}
+
+ul.two {
+  list-style-type: disc;
+}
+
+ul.three {
+  list-style-type: circle;
+}
+
+ul.four {
+  list-style-type: square;
+}
+
+
+ol.five {
+  list-style-type: decimal;
+}
+
+ol.six {
+  list-style-type: decimal-leading-zero;
+}
+
+ol.seven {
+  list-style-type: lower-alpha;
+}
+
+ol.eight{
+  list-style-type: upper-alpha;
+}
+
+ol.nine {
+  list-style-type: lower-roman;
+}
+
+ol.ten {
+  list-style-type: upper-roman;
+}
