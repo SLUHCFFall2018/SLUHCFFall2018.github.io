@@ -1,0 +1,115 @@
+
+<html>
+  <head>
+    <title> css Forms </title>
+    <link href="cssForms.css" type="text/css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <fieldset>
+      <legend>Important Information</legend>
+
+      <form action="" method="get">
+
+
+        <div class="formattedInput">
+          <label for="username" class="labelFormat" >username</label>
+          <input class="boxStyle" text" name="username" size="15" maxlength="25" />
+        </div>
+
+      <br />
+
+        <div class="formattedInput">
+          <label for="password" class="labelFormat" >password</label>
+          <input class="boxStyle" type="password" name="password" size="15" maxlength="25" />
+        </div>
+
+      <br />
+
+      <div class="formattedInput">
+        <label for="favSeason" class="labelFormat">What is your favorite season of the year and why?</label>
+        <textarea class="boxStyle" name="favSeason" cols="30" rows="5">
+          Enter your comments ...
+        </textarea>
+
+      </div>
+
+      <br />
+
+
+        <div class="formattedInput">
+        <label for="holidays" class="labelFormat">Which of the following holidays do you like?</label>
+
+
+          <select class="boxStyle" name="holidays" size="1" multiple="multiple">
+            <option value="Christmas" selected="selected">
+              Christmas
+            </option>
+            <option value="Easter">
+              Easter
+            </option>
+            <option value="Halloween">
+              Halloween
+            </option>
+            <option value="July 4th">
+              July 4
+            </option>
+            <option value="Labor Day">
+              Labor Day
+            </option>
+            <option value="Memorial Day">
+              Memorial Day
+            </option>
+
+          </select>
+      </div>
+
+      <br />
+
+        <div class="formattedInput">
+          <label for="dayWeek" class="labelFormat">What day of the week do you like the most?</label>
+            <input type="radio" name="dayWeek" value="Tuesday" /> Tuesday
+            <input type="radio" name="dayWeek" value="Thursday" /> Thursday
+            <input type="radio" name="dayWeek" value="Friday" /> Friday
+            <input type="radio" name="dayWeek" value="Saturday" /> Saturday
+        </div>
+
+        <br />
+
+        <div class="formattedInput">
+          <label for="month" class="labelFormat">What day of the month do you like the most?</label>
+          <input type="checkbox" name="month" value="May" />May
+          <input type="checkbox" name="month" value="June" />June
+          <input type="checkbox" name="month" value="July" />July
+          <input type="checkbox" name="month" value="August" />August
+          <input type="checkbox" name="month" value="September" />September
+        </div>
+
+
+        <br /><br />
+
+        <div class="formattedInput">
+          <input class="mySubmit" type="submit" name="information" value="send information" />
+        </div>
+
+
+
+
+
+        </form>
+
+
+
+
+
+    </fieldset>
+
+
+
+
+
+  </body>
+
+</html>

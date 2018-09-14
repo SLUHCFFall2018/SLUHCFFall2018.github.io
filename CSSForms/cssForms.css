@@ -1,0 +1,49 @@
+
+legend {
+  font-size: 40px;
+}
+
+form {
+  font-size: 20px;
+}
+
+div {
+  vertical-align: top;
+}
+
+fieldset {
+  width: 800px;
+  border: 3px solid black;
+  padding: 5px;
+  background-color: rgba(140, 140, 240, 0.7);
+}
+
+.formattedInput{
+  width: 700px;
+  margin-bottom: 4px;
+}
+
+.labelFormat {
+  float:left;
+  width: 200px;
+  text-align: left;
+  padding-right: 100px;
+}
+
+.boxStyle {
+  color: red;
+  background-color: #ccddee;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding; 1px;
+
+}
+
+input:focus, input:hover {
+  background-color: #eeccaa;
+  cursor: crosshair;
+}
+
+
+
+/* NOTE: background images can be added to input fields using the background-image CSS property */
