@@ -1,0 +1,12 @@
+body {
+  background-image: url("trees.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* Other options include left top, left center, left bottom, center top, center center, center bottom, etc */
+  /* with the no-repeat option and with "exact" positioning you can put more than one image on a page and place them where you want them */
+}
+
+p {
+  font-size: 40px;
+  color: black;
+}

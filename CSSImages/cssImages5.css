@@ -1,0 +1,11 @@
+body {
+  background-image: url("pattern.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  /* if you wanted the image to scroll with the page, then you would change the value from fixed to scroll */
+}
+
+p {
+  font-size: 40px;
+  color: white;
+}

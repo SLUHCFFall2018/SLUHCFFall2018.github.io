@@ -1,0 +1,32 @@
+
+p.one {
+  background-image: url("pattern.jpg");
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+pictFrame {
+
+}
+
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  /*The margin trick above wont work unless the containing element has text-align: center */
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+div {
+  width: 560px;
+  height: 560px;
+  background-color: #889911;
+  text-align: center;
+  padding-top: 30;
+
+
+}

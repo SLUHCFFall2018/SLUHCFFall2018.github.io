@@ -1,0 +1,11 @@
+
+body {
+  background-image: url("pattern.jpg");
+  background-repeat: repeat;
+  /* could also use repeat-x or repeat-y or no-repeat */
+}
+
+p {
+  font-size: 40px;
+  color: white;
+}

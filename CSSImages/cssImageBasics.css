@@ -1,0 +1,35 @@
+
+img.large {
+  width: 500px;
+  height: 500px;
+}
+
+img.medium {
+  width: 200px;
+  height: 200px;
+}
+
+img.small {
+  width: 125px;
+  height: 100px;
+}
+
+img.goLeft {
+  float: left;
+  margin-right: 10px;
+}
+
+img.goRight {
+  float: right;
+  margin-right: 10px;
+}
+
+
+/*The CSS code below shows how to display an image in the middle of the page */
+/*Images are normally inline elements but you can make them block elements by using the display property with a value of block */
+
+img.centerIt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

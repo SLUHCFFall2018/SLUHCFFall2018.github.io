@@ -1,0 +1,10 @@
+
+body {
+  background-image: url("pattern.jpg");
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 40px;
+  color: white;
+}
