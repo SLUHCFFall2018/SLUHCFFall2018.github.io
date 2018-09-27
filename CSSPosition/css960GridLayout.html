@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title> the 960 grid layout </title>
+    <link  href="960_12_col.css" type="text/css" rel="stylesheet"   />
+
+    <style>
+      * {
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;
+      }
+
+      #nav, #feature, .article, #footer {
+        background-color: #efefef;
+        margin-top: 20px;
+        padding: 10px 0px 5px 0px;
+      }
+
+      .article {
+        height: 500px;
+      }
+
+      li {
+        display: inline;
+        padding: 5px;
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+
+      <div class="container_12 clearfix">  <!-- This indicates we are using a 12 column grid that adds up to 960 -->
+
+        <div id="header" class="grid_12">
+          <h1>Logo</h1>
+          <div id="nav">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="feature" class="grid_12">
+          <p>Feature</p>
+        </div>
+
+        <div class="article grid_4">
+          <p>The Chattooga River (also spelled Chatooga, Chatuga, and Chautaga, variant name Guinekelokee River) is the main tributary of the Tugaloo River.
+            Its headwaters are located southwest of Cashiers, North Carolina, and it stretches 57 miles (92 km)[1] to where it has its confluence with
+            the Tallulah River within Lake Tugalo, held back by the Tugalo Dam. The Chattooga and the Tallulah combine to make the Tugaloo River starting
+            at the outlet of Lake Tugalo. The Chattooga begins in southern Jackson County, North Carolina, then flows southwestward between northwestern
+            Oconee County, South Carolina, and eastern Rabun County, Georgia. The "Chattooga" spelling was approved by the US Board on Geographic Names
+            in 1897.[2]
+          </p>
+        </div>
+
+        <div class="article grid_4">
+          <p>Column Two</p>
+        </div>
+
+        <div class="article grid_4">
+          <p>Column Three</p>
+        </div>
+
+        <div id="footer" class="grid_12">
+          <p>&copy: Copyright 2018</p>
+        </div>
+
+      </div>
+
+
+  </body>
+
+</html>

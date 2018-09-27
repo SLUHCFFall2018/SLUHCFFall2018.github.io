@@ -1,0 +1,66 @@
+
+#one {
+  width: 400;
+  height: 300;
+  background-color: #678bbc;
+  float: left;
+}
+
+#two {
+  width: 400;
+  height: 300;
+  background-color: #679dbc;
+  float: left;
+
+}
+
+#three {
+  width: 400;
+  height: 300;
+  background-color: #3a8bbc;
+  float: left;
+
+}
+
+#four {
+  width: 400;
+  height: 300;
+  background-color: #678bbc;
+  float: left;
+}
+
+#five {
+  width: 400;
+  height: 300;
+  background-color: #679dbc;
+  float: left;
+
+}
+
+#six {
+  width: 400;
+  height: 300;
+  background-color: #3a8bbc;
+  float: left;
+
+}
+
+#outerBox {
+  border: 5px;
+  border-style: solid;
+  border-color: red;
+
+}
+
+#outerBox2 {
+  border: 5px;
+  border-color: red;
+  border-style: solid;
+  overflow: auto;
+  width: 1200px;;
+
+}
+
+#clearItOut {
+  clear: left;
+}

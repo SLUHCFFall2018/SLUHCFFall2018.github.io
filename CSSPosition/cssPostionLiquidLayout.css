@@ -1,0 +1,56 @@
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #aabbee;
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav, #feature, #footer {
+  background-color: #efefef;
+  margin: 1%;
+}
+
+
+.column1, .column2, .column3 {
+  background-color: #efefef;
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  background-color: #eeaa88;
+  overflow: auto;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+li {
+  display: inline;
+  padding: .5em;
+}
+
+ul {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#nav, #footer {
+  padding: .5em 0;
+}
+
+.article {
+  height: 30em;
+  margin-bottom: 1em;
+  border-color: #efefef;
+}
+
+#feature {
+  height: 3em;
+  margin-bottom: 1em;
+  border-color: #efefef;
+}

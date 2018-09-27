@@ -1,0 +1,48 @@
+
+#one {
+  width: 400;
+  height: 300;
+  background-color: #678bbc;
+  position: relative; /*Notice that I had to change the position to relative */
+  z-index: 10;
+}
+
+#two {
+  width: 400;
+  height: 300;
+  background-color: #679dbc;
+  position: fixed;
+  left: 300px;
+  top: 200px;
+  z-index: 1;
+}
+
+#three {
+  width: 400;
+  height: 300;
+  background-color: #3a8bbc;
+}
+
+#four {
+  width: 400;
+  height: 300;
+  background-color: #648bdc;
+}
+
+#five {
+  width: 400;
+  height: 300;
+  background-color: #658b3c;
+}
+
+#six {
+  width: 400;
+  height: 300;
+  background-color: #628bac;
+}
+
+#seven {
+  width: 400;
+  height: 300;
+  background-color: #648bbe;
+}
