@@ -1,0 +1,79 @@
+
+
+.grid-containerA {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-itemA {
+  background-color: #345981;
+  border: 1px solid #aaaccc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+.grid-containerB {
+  display: grid;
+  grid-template-columns: 200px auto 100px auto;
+  grid-template-rows: 100px 300px auto;
+  grid-row-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-itemB {
+  display: flex; /*makes the cell a flex box*/
+  align-items: center; /*centers content in the cell horizontally*/
+  justify-content: center; /*centers content in the cell vertically*/
+  background-color: #345981;
+  border: 1px solid #aaaccc;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+.grid-containerC {
+  display: grid;
+  grid-template-areas: "myArea myArea . .";
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-itemC {
+  background-color: #345981;
+  border: 1px solid #aaaccc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-itemC1 {
+  grid-area: myArea;
+}
+
+
+
+
+.grid-containerD {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-itemD {
+  background-color: #345981;
+  border: 1px solid #aaaccc;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-itemD1 {
+  grid-column: 1 / 3;
+}
+
+.grid-itemD2 {
+  grid-area: 3 / 1 / 5 / 3;
+}
